@@ -1,8 +1,0 @@
-
-def verify()
-project = float(input("Enter Project marks: "))
-internal = float(input("Enter Internal marks: "))
-external = float(input("Enter External marks: "))
-total = project + internal + external
-average
-

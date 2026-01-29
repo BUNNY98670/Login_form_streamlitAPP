@@ -1,2 +1,0 @@
-fruits = ["apple" ,"banana" ,"graph" ,"orange"]
-fruits[0]
