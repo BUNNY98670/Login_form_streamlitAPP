@@ -1,0 +1,17 @@
+project = float(input("Enter Project score : "))
+internal = float(input("Enter Internal score : "))
+external = float(input("Enter External score : "))
+
+total = (project * 0.70) + (internal * 0.10) + (external * 0.20)
+
+if total >= 90:
+    grade = "A"
+elif total >= 70:
+    grade = "B"
+elif total >= 50:
+    grade = "C"
+else:
+    grade = "Fail"
+
+print("Total Score:", total)
+print("Grade:", grade)

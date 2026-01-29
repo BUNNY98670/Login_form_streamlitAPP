@@ -1,0 +1,25 @@
+total = 10
+
+def add_to_total(value):
+    global total     
+    total = total + value 
+
+add_to_total(5)
+print(total)  
+
+add_to_total(20)
+print(total)
+---------------
+x = 5
+def fun_name():
+global x 
+x = x + 10
+print()
+return
+
+
+b = 10 + x
+
+
+
+
